@@ -1,0 +1,174 @@
+body {
+  background-image: linear-gradient(#1a237e,#3949ab,#5c6bc0,#ce93d8);
+  height:800px;
+  font-family: Courier;
+}
+
+
+
+.header-logo {
+
+  color : #bdbdbd ;
+  font-size : 18px ;
+  height:10px ;
+  padding: 10px 10px 60px 20px ;
+  font-family: Courier;
+  border-bottom: 5px solid #1a237e;
+  text-align: center;
+}
+
+header {
+  width:960px;
+  margin: 0 auto;
+  position: fixed;
+  top:0px;
+  left:100px;
+  right:100px;
+  z-index:10;
+  background-color: rgba(151, 13, 182, 0.17);
+
+
+
+}
+
+.header-list{
+  position: relative;
+  overflow: hidden;
+
+}
+
+.container{
+background-color: rgba(135, 135, 152, 0.3);
+width: 960px;
+padding: 0 15px;
+margin: 0 auto;
+}
+
+
+.link{
+  padding:6px 6px;
+  color :#bdbdbd;
+  background-color: rgba(101, 72, 142, 0.53);
+  display: block;
+  opacity: 0.8;
+  border-radius:10px;
+
+}
+
+.btn:hover {
+  opacity:0.8;
+  color:white;
+  background-color: #e1bee7;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 3px 6px #695c96;
+}
+
+.btn:active {
+  position: relative;
+  top:3px;
+  box-shadow: none;
+}
+
+.contents {
+  width:250px;
+  padding:10px 10px ;
+  margin: 0 auto;
+
+
+}
+.main{
+  width: 500px;
+  margin:0 auto;
+  position:relative; /* kira kira no oya youso */
+}
+
+.lune {
+  width:500px;
+  margin-top: 20px;
+
+}
+
+.main p {
+  position:absolute; /* kira kira wo kasaneru */
+  top:180px;
+  width:100%;
+  color:white;
+}
+
+ ul {
+   text-align:center
+
+ }
+
+ li {
+  display: inline-block;
+  list-style:none;
+
+  color : #bdbdbd;
+  font-size: 15px;
+  padding: 7px 7px  ;
+  margin : 8px 10px ;
+
+
+}
+
+h3 {
+  color:white;
+  border: 1px solid #bdbdbd;
+  text-align: center;
+  background-color: #e1bee7;
+
+}
+
+p{
+  color:#fafafa;
+  text-align: center;
+
+}
+
+.contact-form {
+  width: 250px;
+  margin: 0 auto;
+
+}
+
+input {
+  color:#455a64 ;
+  background-color: #e1bee7;
+  font-family: Courier;
+}
+
+.btn2 {
+  width: 38px;
+  margin:0 auto;
+}
+
+.span, .btn2{
+  color:white;
+  background-color: #e1bee7;
+  padding: 5px 8px;
+  opacity: 0.8;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 3px 6px #695c96;
+}
+
+.btn2:active {
+  position: relative;
+  top:6px;
+  box-shadow: none;
+}
+
+
+.footer-logo {
+  color: #fafafa;
+  padding-top: 50px;
+}
+
+.footer-list li {
+  color:#fafafa;
+  float: right;
+
+}
